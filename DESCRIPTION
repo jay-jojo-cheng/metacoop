@@ -1,0 +1,26 @@
+Package: metacoop
+Type: Package
+Title: Implements a metaanalysis estimation of ITR from multi-sourced data
+Version: 1.0
+Date: 2020-07-16
+Author: J. Jojo Cheng
+Maintainer: J. Jojo Cheng <jay.cheng@wisc.edu>
+Description: More about what it does (maybe more than one
+       line)
+License: MIT + file LICENSE
+Imports: 
+    Rcpp (>= 1.0.4.6),
+    RcppEigen,
+    glmnet,
+    stats,
+    randomForestSRC,
+    oem,
+    dplyr,
+    WeightIt,
+    cobalt,
+    osqp
+LinkingTo: Rcpp, RcppEigen
+RoxygenNote: 7.1.1
+Encoding: UTF-8
+SystemRequirements: C++11
+Config/testthat/edition: 3
